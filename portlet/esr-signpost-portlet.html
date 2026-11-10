@@ -1,0 +1,48 @@
+<!--
+  ESR SIGNPOSTING PORTLET – ESR Manager Hub (Humber and North Yorkshire ICB)
+
+  WHY THIS IS SO SIMPLE
+  Liferay's web content sanitiser on ESR strips <style>, <script>, <input>, <label>
+  and often <svg>. This portlet uses ONLY <div>, <p>, <a>, <span> and <strong> with
+  inline style="" attributes, which survive sanitising.
+
+  HOW TO USE
+  1. Find and replace  https://YOUR-SITE-ADDRESS/  with the published site address
+     (keep the trailing slash). There are 5 occurrences.
+  2. In ESR, edit the Web Content item, switch the editor to Source / Code view,
+     and paste everything between the two CUT HERE lines.
+  3. If anything still gets stripped, use OPTION B (plain) further down instead.
+-->
+
+<!-- ===================== OPTION A (styled) – CUT HERE ===================== -->
+<div style="font-family: Arial, Helvetica, sans-serif; border: 1px solid #d8dde0; border-top: 6px solid #005eb8; border-radius: 10px; background: #ffffff; padding: 18px 20px; color: #212b32; max-width: 760px;">
+  <p style="margin: 0 0 6px 0; font-size: 12px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; color: #007f3b;">
+    <span style="display: inline-block; background: #005eb8; color: #ffffff; font-style: italic; font-weight: bold; padding: 1px 6px; margin-right: 6px; letter-spacing: 0;">NHS</span>
+    Humber and North Yorkshire ICB
+  </p>
+  <p style="margin: 0 0 6px 0; font-size: 22px; font-weight: bold; color: #003087; line-height: 1.25;">
+    New to Manager Self Service?
+  </p>
+  <p style="margin: 0 0 14px 0; font-size: 15px; line-height: 1.5; color: #4c6272;">
+    Our ESR Manager Hub has step-by-step help with logging in, your dashboard, checking your team, annual leave and recording sickness, plus all 41 ESR online learning guides in one place.
+  </p>
+  <p style="margin: 0 0 12px 0;">
+    <a href="https://YOUR-SITE-ADDRESS/" target="_blank" rel="noopener" style="display: inline-block; background: #007f3b; color: #ffffff; font-size: 16px; font-weight: bold; text-decoration: none; padding: 11px 20px; border-radius: 6px; border-bottom: 4px solid #00401e;">Open the ESR Manager Hub &#8599;</a>
+  </p>
+  <p style="margin: 0; font-size: 14px; line-height: 1.8;">
+    <strong style="color: #212b32;">Jump to:</strong>
+    <a href="https://YOUR-SITE-ADDRESS/guide.html#sickness" target="_blank" rel="noopener" style="color: #005eb8; font-weight: bold; margin-right: 12px;">Recording sickness</a>
+    <a href="https://YOUR-SITE-ADDRESS/guide.html#annual-leave" target="_blank" rel="noopener" style="color: #005eb8; font-weight: bold; margin-right: 12px;">Annual leave</a>
+    <a href="https://YOUR-SITE-ADDRESS/guide.html#your-team" target="_blank" rel="noopener" style="color: #005eb8; font-weight: bold; margin-right: 12px;">Your team</a>
+    <a href="https://YOUR-SITE-ADDRESS/learning.html" target="_blank" rel="noopener" style="color: #005eb8; font-weight: bold;">Online learning library</a>
+  </p>
+</div>
+<!-- ===================== OPTION A – CUT HERE ===================== -->
+
+
+<!-- ===================== OPTION B (plain fallback) – CUT HERE ===================== -->
+<p><strong>New to Manager Self Service?</strong></p>
+<p>Our ESR Manager Hub has step-by-step help and all 41 ESR online learning guides in one place.</p>
+<p><a href="https://YOUR-SITE-ADDRESS/" target="_blank" rel="noopener">Open the ESR Manager Hub</a></p>
+<!-- ===================== OPTION B – CUT HERE ===================== -->
+
